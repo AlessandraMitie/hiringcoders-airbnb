@@ -1,25 +1,26 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Airbnb</title>
 
-    <link rel="stylesheet" href="src/css/style.css">
+    <!-- FONTE -->
+    <link href="https://fonts.googleapis.com/css2?family=Hind:wght@300&display=swap" rel="stylesheet">
 
-    <!-- Bootstrap -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous" defer></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous" defer></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous" defer></script>
-    <!-- Bootstrap end --> 
+    <!-- BOOSTRAP -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
-    <link rel="icon" type="image/png" href="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Airbnb-128.png">
+    <script defer src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script defer src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>  
+    <!-- BOOSTRAP END -->
 
+    <link rel="icon" type="image/png"href="https://cdn2.iconfinder.com/data/icons/social-icons-33/128/Airbnb-128.png">
     <script src="https://kit.fontawesome.com/41e9e19b16.js" crossorigin="anonymous" defer></script>
-
-    <script src="src/index.js"></script>
-
+    
+    <script src="src/index.js" defer></script>
+    <link rel="stylesheet" href="src/css/style.css">
 </head>
 <body>
     <nav class="navbar navbar-expand-lg navbar-light">
@@ -59,30 +60,37 @@
     <hr/>
     <div class="row">
         <div class="col-8">
-            <div class="container ml-sm-3  mt-sm-5">
-                <p>Mais de 300 acomodações · 15 de mai. - 23 de mai. · 1 hóspede</p>
-                <h1>Acomodações em Miami</h1>
+            <div class="container ml-sm-3 mt-sm-5" >
+            <p>Mais de 300 acomodações · 9 de mai. - 10 de mai. · 1 hóspede</p>
+            <h2>Acomodações </h2>
 
-                <div id="filtros">
-                    <button class="filtroBotao">Flexibilidade de cancelamento</button>
-                    <button class="filtroBotao">Tipo de lugar</button>
-                    <button class="filtroBotao">Preço</button>
-                    <button class="filtroBotao">Reserva Instantânea</button>
-                    <button class="filtroBotao">Mais filtros</button>
-                </div>
+            <div id="filtros">
+                <button class="filtroBotao">Flexibilidade de cancelamento</button>
+                <button class="filtroBotao">Tipo de lugar</button>
+                <button class="filtroBotao">Preço</button>
+                <button class="filtroBotao">Reserva Instantânea</button>
+                <button class="filtroBotao">Mais filtros</button>
+            </div>
 
-                <p>Verifique as restrições de viagem antes de fazer uma reserva.A saúde e a segurança das nossas comunidades vêm sempre em primeiro lugar. Siga as orientações do governo e viaje apenas se for essencial. <a href="#" target="_blank" class="saibaMais">Saiba mais</a></p>
-                <div id="quartos">
-                    <img id="img-quartos" src="https://a0.muscache.com/im/pictures/e6c4b347-49c7-4840-8c00-df36a2a273da.jpg?aki_policy=x_large" alt="quarto1">
-                    <div id="especificacoes">
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint aperiam ad facere, commodi architecto dolor laudantium in repellendus officiis quidem nemo culpa alias, vero delectus modi ipsum non placeat voluptatibus.</p>
+            <p><b>Verifique as restrições de viagem antes de fazer uma reserva.</b> A saúde e a segurança das nossas comunidades vêm sempre em primeiro lugar. Siga as orientações do governo e viaje apenas se for essencial. <a href="#" target="_blank" class="saibaMais">Saiba mais</a></p>
 
-                    </div>
-                </div>
+            </div>
+            <div id="acomodacoes" class="  d-flex flex-column">
+            
             </div>
             
         </div>
-        <div class="col-4">col-4</div>
-      </div>
+        <div class="col-4">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3657.1216123119816!2d-46.6546248853838!3d-23.564075367576823!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94ce59c7dc4a061d%3A0x8d224b65e65c4471!2sAv.%20Paulista%2C%201100%20-%20Bela%20Vista%2C%20S%C3%A3o%20Paulo%20-%20SP%2C%2001310-100!5e0!3m2!1spt-BR!2sbr!4v1589153742671!5m2!1spt-BR!2sbr" width="400" height="300" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+        </div>
+    </div>
+    <hr/>
+    <footer class="footer">
+        <p>Alessandra Mitie © 2020</p>
+        <div class="footer-icones">
+            <a href="https://www.linkedin.com/in/alessandra-mitie/"><img id="icon" src="src/img/linkedin.png" alt="Linkedin"></a>
+            <a href="https://github.com/AlessandraMitie"><img id="icon" src="src/img/github.png" alt="GitHub"></a>
+        </div>
+    </footer>
 </body>
 </html>

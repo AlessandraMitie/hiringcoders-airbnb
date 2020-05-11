@@ -1,3 +1,15 @@
+body {
+    font-family: 'Hind', sans-serif;
+}
+
+p {
+    font-size: 15px;
+}
+
+span {
+    color: rgb(131, 130, 130);
+}
+
 .navbar {
     height: 65px;
     margin-top: 10px;
@@ -48,4 +60,21 @@
     background-color: white;
     border-radius: 20px;
     padding: 8px;
+}
+
+.room-img {
+    border-radius: 10px;
+    width: 300px;
+    height: 190px; 
+}
+
+.room-price {
+    
+}
+
+footer {
+    font-size: 14px;
+
+    display: flex;
+    justify-content: space-around;
 }
